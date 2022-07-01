@@ -1,0 +1,394 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&family=Source+Code+Pro:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar{
+    
+    background-color:rgb(102, 100, 100);
+    /* width: 400px; */
+    font-family: 'Mulish', sans-serif;
+    height: auto;
+    color:white;
+    transition:transform 0.3s ease-in;
+
+}
+.sidebar nav{
+    padding: 35px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 23px 0;
+
+}
+.sidebar nav li a{
+    text-decoration: none; 
+    color:white;
+
+}
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+    padding: auto;
+}
+
+
+
+.infocontainer{
+    /* background-color: rgb(71, 214, 15); */
+    height:58vh ;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+img {
+    height: 78vh;
+    width: 450px;
+}
+.divPic img {
+   
+   
+}
+.devInfo{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+.hello{
+    font-size: 45px;
+
+
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    
+    font-family: 'Source Code Pro', monospace;
+
+}
+.about{
+    font-size: 40px;
+
+}
+.moreabout{
+ margin-top: 12px;
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 34px;
+    
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: black;
+    background-color:rgb(90, 156, 179);
+    
+}
+.contactform{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    padding: 0;
+    
+
+}
+.contactform h1{
+    max-width: 1200px;
+    min-width: 350px;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    
+}
+.contactform div{
+    padding: 10px 0;
+}
+.contactform form div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 38vh;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 10px;
+    color: rgb(15, 196, 228);
+    margin: 0 5px;
+    padding: 0%;
+}
+#from-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 20px;
+    margin: px 0;
+
+}
+.btn-sm{
+    margin-top: 34px;
+    
+}
+
+
+
+
+
+.btn-sm{
+    width: 100px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    color:black;
+    background-color:rgb(208, 221, 19);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-left: 12px;
+    border-color:black;
+}
+.btn-sm:hover{
+    color:white;
+    background-color:black;
+    pointer-events: visible;
+    border-color: yellow;
+    
+}
+/* .b-m3{
+    color: solid black;
+    width: 3px; */
+/* } */
+.blogItem{
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    height: auto;
+    margin-bottom: 0% ;
+
+
+}
+.container{
+    display: flex;
+    /* margin-left: 150px; */
+}
+.blogcontainer{
+    margin-left: 85px;
+}
+.blogcontainer h1{
+    margin: 23px;
+
+    
+}
+.blogItem p{
+    margin: 10px;
+
+    
+}
+.btn-sm01{
+    width: 100px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    color:black;
+    background-color:rgb(80, 9, 247);
+    font-weight: bold;
+    font-size: 10px;
+    margin: 0 3px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 12px;
+    border-color:black;
+}
+
+.btn-sm01:hover{
+    color:white;
+    background-color:darkblue;
+   border-color: yellow;
+
+}
+.devinfo01 h1{
+    margin: 10px;
+    padding: 0px;
+    margin-left: 145px;
+    
+}
+.devinfo01 p{
+    margin: 10px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-left: 145px;
+}
+.devinfo01 h2{
+    margin: 10px;
+    padding: 0px;
+    margin-left: 145px;
+}
+.skillcontainer{
+    padding: 12px;
+    margin-left: 140px;
+    margin-top: 10px;
+
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+    
+
+}
+.skill{
+    margin-left: 50px;
+
+    width: 265px;
+    height: 6px;
+    background-color: green;
+    margin-right: 15px;
+    
+}
+#idHtml{
+    width: 550px;
+    color: darkgreen;
+    margin: 10px;
+    border-radius: 10px;
+    border-color:  rgb(201, 24, 24);
+    background-color: blue;
+    margin-left: 35px;
+}
+#idCss{
+    width: 500px;
+    background-color:green;
+    border-radius: 10px;
+    border-color:  rgb(201, 24, 24);
+    padding-left: 0px;
+    
+}
+#idJs{
+    background-color: rgb(165, 245, 4);
+    width: 480px;
+    margin-left: 14px;
+    border-radius: 5px;
+    
+   
+
+}
+#idrJs{
+    background-color: green; width: 500px;
+    background-color:green;
+    border-radius: 10px;
+    border-color:  rgb(201, 24, 24);
+    padding-left: 0px;
+    margin-left: 25px;
+    
+
+}
+#idbts{
+    background-color: darkblue;
+    width: 585px;
+    border-radius: 5px;
+    margin-left: 14px;
+    
+
+
+}
+
+.projects{
+    margin-left: 90px;
+    padding-bottom:20px ;
+}
+.liprojects{
+    margin-left: 70px;
+}
+.sidebarGo{
+    transform: translate(-443px);
+    position: absolute;
+
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 12px;
+    left: 6px;
+}
+.ham{
+height: 40px;
+width: 40px;
+
+
+}
+.cross{
+   margin-left: 140px;
+    height: 30px;
+    width: 30px;
+}
+@media(max-wdth:1615px){
+    /* .sidebar{
+        transform: translate(-443px);
+        position: absolute;
+    } */
+}
+.services{
+    margin-left: 200px;
+    padding: 55px;
+    margin-top: 0px;
+    
+    height: 800px;;
+    width: 940px;
+    background-color: gray;
+    
+    
+
+}
+.servicesHeading{
+    text-align: center;
+    border-color: black;
+    border-width: 5px;
+    padding: 10px;
+    margin: 50px;
+    justify-content: space-around;
+
+    
+}
+/* .div2{
+    
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 15px;
+    display: flexbox;
+    box-sizing: content-box;
+    background-color:gray;
+    min-height: 150px;
+    max-height: 250px;
+    padding-top: 25px;
+    width: 250px;
+    border-color: yellow;
+    border-width: 5px;
+    padding-bottom: 10px;
+    margin-left: 500px;
+    
+
+} */
